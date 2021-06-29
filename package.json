@@ -1,0 +1,26 @@
+{
+  "name": "atp_things_rest_api",
+  "version": "1.0.0",
+  "description": "atp_things REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npm install && nodemon -L",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrazpolak/atp_things_rest_api.git"
+  },
+  "keywords": [
+    "atp_things",
+    "REST",
+    "API"
+  ],
+  "author": "Andraz Polak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrazpolak/atp_things_rest_api/issues"
+  },
+  "homepage": "https://github.com/andrazpolak/atp_things_rest_api#readme"
+}

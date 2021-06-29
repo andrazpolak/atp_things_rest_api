@@ -1,0 +1,14 @@
+FROM node:12
+
+RUN npm install -g nodemon
+# Create app directory
+RUN mkdir -p /usr/src/api
+WORKDIR /usr/src/api
+
+# Install app dependencies
+COPY package*.json ./
+
+RUN npm install
+
+# EXPOSE 8080
+CMD [ "npm", "run" , "dev"]
